@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace App_for_kids
 {
-    public partial class welcome_screen : Form
+    public partial class Menu_screen : Form
     {
-        public welcome_screen()
+        public Menu_screen()
         {
             InitializeComponent();
         }
