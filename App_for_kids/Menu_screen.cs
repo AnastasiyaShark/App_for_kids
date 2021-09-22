@@ -16,5 +16,14 @@ namespace App_for_kids
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            welcome_screen menu = new welcome_screen();
+            menu.Show();
+        }
+
+        
     }
 }
