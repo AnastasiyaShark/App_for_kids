@@ -29,5 +29,15 @@ namespace App_for_kids
             Menu_screen menu = new Menu_screen();
             menu.Show();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

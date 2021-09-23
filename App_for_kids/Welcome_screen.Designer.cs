@@ -44,10 +44,10 @@ namespace App_for_kids
             this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox4.Image = global::App_for_kids.Properties.Resources.image__4_;
-            this.pictureBox4.Location = new System.Drawing.Point(274, 204);
+            this.pictureBox4.Image = global::App_for_kids.Properties.Resources.ferdigt;
+            this.pictureBox4.Location = new System.Drawing.Point(198, 116);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(725, 320);
+            this.pictureBox4.Size = new System.Drawing.Size(851, 531);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
