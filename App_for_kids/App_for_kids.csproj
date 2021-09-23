@@ -105,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\logo.png" />
+    <Content Include="images\main\about.png" />
     <Content Include="images\main\arrow-left.png" />
     <Content Include="images\main\check.png" />
     <Content Include="images\main\delete.png" />
