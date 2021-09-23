@@ -78,6 +78,11 @@ namespace App_for_kids
             button.ForeColor = Color.FromArgb(31, 137, 255);
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Class2_screen class2 = new Class2_screen();
+            class2.Show();
+        }
     }
 }
