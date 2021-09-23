@@ -29,32 +29,55 @@ namespace App_for_kids
         {
             goBack();
         }
-
+        //переход на начальную страницу (общий)
         private void goBack()
         {
             this.Hide();
             welcome_screen menu = new welcome_screen();
             menu.Show();
         }
-        //При наезде на butt меняется цвет
+       
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            button1.ForeColor = Color.FromArgb(0, 109, 240);
+            chengeColorMouseEnter(button1);
         }
-        //При отъезде от butt меняется цвет
+        private void button2_MouseEnter(object sender, EventArgs e)
+        {
+            chengeColorMouseEnter(button2);
+        }
+        private void button3_MouseEnter(object sender, EventArgs e)
+        {
+            chengeColorMouseEnter(button3);
+        }
+        
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            button1.ForeColor = Color.FromArgb(31, 137, 255);
+            chengeColorMouseLeave(button1);
+        }
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            chengeColorMouseLeave(button2);
+        }
+        private void button3_MouseLeave(object sender, EventArgs e)
+        {
+            chengeColorMouseLeave(button3);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        //При наезде на butt меняется цвет (общий)
+        private void chengeColorMouseEnter(Button button)
         {
-
+            button.ForeColor = Color.FromArgb(0, 109, 240);
         }
+        //При отъезде от butt меняется цвет (общий)
+        private void chengeColorMouseLeave(Button button)
+        {
+            button.ForeColor = Color.FromArgb(31, 137, 255);
+        }
+
+       
     }
 }
