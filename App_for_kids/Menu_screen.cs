@@ -46,5 +46,15 @@ namespace App_for_kids
         {
             button1.ForeColor = Color.FromArgb(31, 137, 255);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
