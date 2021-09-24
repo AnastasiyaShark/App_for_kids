@@ -19,16 +19,23 @@ namespace App_for_kids
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            this.Hide();
             welcome_screen menu = new welcome_screen();
             menu.Show();
+            this.Close();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            this.Hide();
             Menu_screen menu = new Menu_screen();
             menu.Show();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Class2_1kv_screen menu = new Class2_1kv_screen();
+            menu.Show();
+            this.Close();
         }
     }
 }

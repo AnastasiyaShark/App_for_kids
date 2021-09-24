@@ -70,6 +70,12 @@
     <Compile Include="Class2_screen.Designer.cs">
       <DependentUpon>Class2_screen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class2_1kv_screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class2_1kv_screen.Designer.cs">
+      <DependentUpon>Class2_1kv_screen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_screen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Class2_1kv_screen.resx">
+      <DependentUpon>Class2_1kv_screen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Class2_screen.resx">
       <DependentUpon>Class2_screen.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,8 +123,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\01.png" />
+    <Content Include="images\aaa-removebg-preview.png" />
+    <Content Include="images\book.png" />
+    <Content Include="images\donut.png" />
     <Content Include="images\ferdigt.png" />
     <Content Include="images\image %284%29.png" />
+    <Content Include="images\image.png" />
     <Content Include="images\klass\2_kl.png" />
     <Content Include="images\klass\3_kl.png" />
     <Content Include="images\klass\4_kl.png" />
@@ -130,6 +143,8 @@
     <Content Include="images\main\delete.png" />
     <Content Include="images\main\home %282%29.png" />
     <Content Include="images\main\play23.png" />
+    <Content Include="images\read.png" />
+    <Content Include="images\trener.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

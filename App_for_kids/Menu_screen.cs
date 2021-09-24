@@ -32,9 +32,9 @@ namespace App_for_kids
         //переход на начальную страницу (общий)
         private void goBack()
         {
-            this.Hide();
             welcome_screen menu = new welcome_screen();
             menu.Show();
+            this.Close();
         }
        
         private void button1_MouseEnter(object sender, EventArgs e)
@@ -80,9 +80,9 @@ namespace App_for_kids
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
             Class2_screen class2 = new Class2_screen();
             class2.Show();
+            this.Close();
         }
     }
 }

@@ -10,33 +10,28 @@ using System.Windows.Forms;
 
 namespace App_for_kids
 {
-    public partial class welcome_screen : Form
+    public partial class Class2_1kv_screen : Form
     {
-        public welcome_screen()
+        public Class2_1kv_screen()
         {
             InitializeComponent();
         }
 
-   
-        private void pictureBox2_Click_1(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            
-            Menu_screen menu = new Menu_screen();
+            Class2_screen menu = new Class2_screen();
             menu.Show();
-            
+            this.Close();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
-
+            welcome_screen menu = new welcome_screen();
+            menu.Show();
+            this.Close();
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
+        private void panel8_Paint(object sender, PaintEventArgs e)
         {
 
         }
